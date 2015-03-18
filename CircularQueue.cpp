@@ -18,7 +18,7 @@ int Enqueue(int qData)
 
 bool Dequeue(int *lpqDest)
 {
-	if (nCount == 0)
+	if (nCount == 0) // 큐에 남은 데이터가 없을경우.
 	{
 		printf("Queue is Empty Now! \n");
 		return false;
